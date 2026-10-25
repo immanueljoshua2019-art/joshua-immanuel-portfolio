@@ -1,0 +1,140 @@
+# Preferred simple Netlify flow. Note: Netlify marks Git Gateway deprecated for new configurations.
+# If Git Gateway is unavailable on your account, switch this backend to Decap Turbo or
+# the GitHub backend with an OAuth provider.
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+site_url: "https://YOUR-SITE.netlify.app"
+
+collections:
+  - name: "site"
+    label: "Site settings"
+    files:
+      - label: "Profile & education"
+        name: "site"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Location", name: "location", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "LinkedIn", name: "linkedin", widget: "string"}
+          - {label: "GitHub", name: "github", widget: "string"}
+          - {label: "Medium", name: "medium", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Hero", name: "hero", widget: "string"}
+          - {label: "Hero text", name: "hero_text", widget: "text"}
+          - {label: "Availability", name: "availability", widget: "string"}
+          - {label: "Hero tags", name: "hero_tags", widget: "list"}
+          - {label: "KPI cards", name: "kpis", widget: "list", fields: [{label: "Value", name: "value", widget: "string"}, {label: "Label", name: "label", widget: "string"}, {label: "Detail", name: "detail", widget: "string"}]}
+          - {label: "Principles", name: "principles", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Text", name: "text", widget: "text"}]}
+          - label: "Education"
+            name: "education"
+            widget: "object"
+            fields:
+              - {label: "Degree", name: "degree", widget: "string"}
+              - {label: "School", name: "school", widget: "string"}
+              - {label: "Location", name: "location", widget: "string"}
+              - {label: "Expected", name: "expected", widget: "string"}
+              - {label: "Coursework", name: "coursework", widget: "list"}
+
+  - name: "projects"
+    label: "Projects"
+    files:
+      - label: "Project list"
+        name: "projects"
+        file: "content/projects.json"
+        format: "json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string"}
+              - {label: "Featured", name: "featured", widget: "boolean", default: false}
+              - {label: "Number", name: "number", widget: "string"}
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Short line", name: "short", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Why it matters", name: "why", widget: "text"}
+              - {label: "Tags", name: "tags", widget: "list"}
+              - {label: "GitHub URL", name: "repo", widget: "string", required: false}
+              - {label: "Extra URL", name: "extra", widget: "string", required: false}
+              - {label: "Extra link label", name: "extraLabel", widget: "string", required: false}
+              - {label: "Visual type", name: "visual", widget: "select", options: ["causal","nudge","water","retention"]}
+
+  - name: "experience"
+    label: "Experience"
+    files:
+      - label: "Experience list"
+        name: "experience"
+        file: "content/experience.json"
+        format: "json"
+        fields:
+          - label: "Roles"
+            name: "experience"
+            widget: "list"
+            fields:
+              - {label: "Period", name: "period", widget: "string"}
+              - {label: "Company", name: "company", widget: "string"}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Bullets", name: "bullets", widget: "list"}
+
+  - name: "leadership"
+    label: "Leadership"
+    files:
+      - label: "Leadership list"
+        name: "leadership"
+        file: "content/leadership.json"
+        format: "json"
+        fields:
+          - label: "Entries"
+            name: "leadership"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Period", name: "period", widget: "string"}
+              - {label: "Description", name: "text", widget: "text"}
+              - {label: "Credential", name: "credential", widget: "string", required: false}
+
+  - name: "writing"
+    label: "Writing"
+    files:
+      - label: "Medium posts"
+        name: "writing"
+        file: "content/writing.json"
+        format: "json"
+        fields:
+          - label: "Posts"
+            name: "writing"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Theme", name: "theme", widget: "string"}
+              - {label: "Featured", name: "featured", widget: "boolean", default: false}
+
+  - name: "certificates"
+    label: "Credentials"
+    files:
+      - label: "Certificates"
+        name: "certificates"
+        file: "content/certificates.json"
+        format: "json"
+        fields:
+          - label: "Certificates"
+            name: "certificates"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Issuer", name: "issuer", widget: "string"}
+              - {label: "Year", name: "year", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Signal", name: "signal", widget: "text"}

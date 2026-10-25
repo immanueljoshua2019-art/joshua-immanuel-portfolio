@@ -1,0 +1,59 @@
+[
+  {
+    "title": "The Decision Game",
+    "description": "A behavioural lens on the hidden forces shaping everyday choices.",
+    "url": "https://medium.com/@joshuaimmanuel/the-decision-game-9648f1a363f0",
+    "theme": "Decision science",
+    "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "title": "Why We Make Bad Decisions Even When We Know Better",
+    "description": "Sunk cost, present bias, social pressure and the context around choice.",
+    "url": "https://medium.com/@joshuaimmanuel/why-we-make-bad-decisions-even-when-we-know-better-8e34a9602822",
+    "theme": "Behaviour",
+    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "title": "Choice Overload: Why More Options Can Lead to Worse Decisions",
+    "description": "When more choice increases friction instead of freedom.",
+    "url": "https://medium.com/@joshuaimmanuel/choice-overload-why-more-options-can-lead-to-worse-decisions-f8569670a86b",
+    "theme": "Behaviour",
+    "image": "https://images.unsplash.com/photo-1553484771-047a44eee27b?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "title": "Before You Blame Yourself, Look Around First",
+    "description": "How environments and systems can shape behaviour before individual willpower gets the blame.",
+    "url": "https://medium.com/@joshuaimmanuel/before-you-blame-yourself-look-around-first-ab33ff1ebf05",
+    "theme": "Context",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "title": "What Is Behavioural Economics",
+    "description": "A plain-language introduction to the field and why it matters.",
+    "url": "https://medium.com/@joshuaimmanuel/what-is-behavioural-economics-f778cb5fd515",
+    "theme": "Economics",
+    "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "title": "When My Face Was All Over the Internet",
+    "description": "A personal reflection on visibility, identity and being seen online.",
+    "url": "https://medium.com/@joshuaimmanuel/when-my-face-was-all-over-the-internet-cb6a68f1892c",
+    "theme": "Reflection",
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "title": "Today I Learned to Think in Timelines",
+    "description": "A reflection on how timelines can change the way we interpret decisions and progress.",
+    "url": "https://medium.com/@joshuaimmanuel/today-i-learned-to-think-in-timelines-cd1026b515d5",
+    "theme": "Learning",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "title": "Beyond the Nudge: The Behavioural Strategy Playbook Nobody Teaches",
+    "description": "The flagship practitioner piece connecting behavioural science to strategy, context and execution.",
+    "url": "https://medium.com/@joshuaimmanuel/beyond-the-nudge-the-behavioural-strategy-playbook-nobody-teaches-3226fbda9774",
+    "theme": "Featured playbook",
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=85"
+  }
+]

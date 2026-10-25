@@ -1,0 +1,39 @@
+[
+  {
+    "group": "Analytics & technical",
+    "items": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Statistics",
+      "Econometrics",
+      "Statistical Modelling",
+      "Causal Inference",
+      "Dynamic Data Visualisation",
+      "Hypothesis Testing"
+    ]
+  },
+  {
+    "group": "Strategic capabilities",
+    "items": [
+      "Behavioural Strategy",
+      "Consumer Insights",
+      "Business Case Development",
+      "Product & Growth Strategy",
+      "Research Synthesis",
+      "Executive Communications"
+    ]
+  },
+  {
+    "group": "Behavioural toolkit",
+    "items": [
+      "Behavioural Economics",
+      "COM-B",
+      "EAST",
+      "Behavioural Diagnosis",
+      "Experiment Design",
+      "Context & Friction Analysis"
+    ]
+  }
+]

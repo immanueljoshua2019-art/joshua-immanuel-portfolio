@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Joshua Immanuel · Data & Behavioural Insights Analyst. Data × Behaviour × Decisions.">
+<meta name="theme-color" content="#f4f1ea">
+<title>Joshua Immanuel · Data × Behaviour × Decisions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="noise" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#top" aria-label="Joshua Immanuel home"><span>JI</span><i>.</i></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#work">Work</a><a href="#thinking">Thinking</a><a href="#credentials">Credentials</a><a href="#writing">Writing</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-tools">
+      <span class="status-dot"></span><span class="status-label">AVAILABLE</span>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode"><span>☼</span><span>☾</span></button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy reveal">
+      <div class="eyebrow brand-eyebrow"><strong>DATA × BEHAVIOUR × DECISIONS</strong></div>
+      <h1 id="heroTitle">I turn messy human questions into <em>clearer decisions.</em></h1>
+      <p class="hero-lede" id="heroText">Economics-trained analyst working across <b>customer behaviour, behavioural science, analytics and strategy</b> · combining evidence, experimentation and causal reasoning to make business decisions more useful.</p>
+      <div class="hero-tags" id="heroTags"></div>
+      <div class="hero-actions">
+        <a class="button button-dark magnetic" href="#work">Explore the work <span>↘</span></a>
+        <a class="text-link" href="mailto:joshuaimmanuel005@gmail.com">Let's talk <span>↗</span></a>
+      </div>
+      
+    </div>
+
+    <div class="hero-stage reveal">
+      <div class="stage-label label-a">DECISION SYSTEM / 01</div>
+      <div class="stage-label label-b">X → B → Y</div>
+      <div class="orbital o1"></div><div class="orbital o2"></div>
+      <div class="hero-dashboard">
+        <div class="dash-head"><span>BEHAVIOURAL SIGNAL MAP</span><span class="mono">LIVE / 01</span></div>
+        <div class="dash-title">Observation <span>→</span> inference <span>→</span> action</div>
+        <div class="causal-canvas">
+          <svg viewBox="0 0 600 320" aria-hidden="true">
+            <defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z"></path></marker></defs>
+            <path class="link" d="M92 160 C175 90 230 90 292 160" marker-end="url(#arrow)"/>
+            <path class="link" d="M308 160 C370 90 425 90 508 160" marker-end="url(#arrow)"/>
+            <path class="link faint" d="M92 160 C180 235 235 235 292 160"/>
+            <path class="link faint" d="M508 160 C425 235 370 235 308 160"/>
+            <circle class="node-cause" cx="82" cy="160" r="38"/><circle class="node-mid" cx="300" cy="160" r="48"/><circle class="node-out" cx="518" cy="160" r="38"/>
+            <text x="82" y="165" text-anchor="middle">X</text><text x="300" y="165" text-anchor="middle">B</text><text x="518" y="165" text-anchor="middle">Y</text>
+          </svg>
+          <div class="node-labels"><span>CONTEXT / INPUT</span><strong>BEHAVIOUR / MECHANISM</strong><span>OUTCOME / DECISION</span></div>
+        </div>
+        <div class="dash-bottom"><span>prediction</span><b>≠</b><span>causality</span><b>→</b><strong>decision</strong></div>
+      </div>
+      <div class="float-card fc1"><small>RECOVERY</small><b>+10%</b><span>overdue loan recovery</span></div>
+      <div class="float-card fc2"><small>FIELD OF VIEW</small><b>213</b><span>countries analysed</span></div>
+      <div class="float-card fc3"><small>REACH</small><b>2K+</b><span>conference participants</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="metric-section">
+  <div class="container metrics" id="kpis"></div>
+</section>
+
+<section class="section" id="work">
+  <div class="container">
+    <div class="section-intro reveal">
+      <div><span class="eyebrow section-label"><strong>SELECTED WORK</strong></span><h2>Projects first.<br><em>Claims second.</em></h2></div>
+      <p>I want the portfolio to show not just what I can build, but how I reason: what was observed, what was assumed, what could be causal, and what a decision-maker can actually do with the evidence.</p>
+    </div>
+    <div id="projects" class="project-stack"></div>
+  </div>
+</section>
+
+<section class="dark-section" id="thinking">
+  <div class="container">
+    <div class="section-intro inverse reveal">
+      <div><span class="eyebrow section-label"><strong>THINKING SYSTEM</strong></span><h2>People are not noise<br>around the <em>model.</em></h2></div>
+      <p>The context in which a choice happens is often part of the explanation. My approach combines economic reasoning, behavioural science and analytics without treating any one lens as sufficient on its own.</p>
+    </div>
+    <div class="thinking-layout">
+      <div class="brain-system reveal">
+        <div class="brain-core">WHY?</div>
+        <div class="brain-node bn1">DATA</div><div class="brain-node bn2">CONTEXT</div><div class="brain-node bn3">BIAS</div>
+        <div class="brain-node bn4">INCENTIVE</div><div class="brain-node bn5">CHOICE</div><div class="brain-node bn6">OUTCOME</div>
+        <svg viewBox="0 0 700 460" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M350 230 L120 90 M350 230 L580 90 M350 230 L120 370 M350 230 L580 370 M120 90 L580 90 M120 370 L580 370"/>
+        </svg>
+      </div>
+      <div class="principles" id="principles"></div>
+    </div>
+    <div class="method-strip">
+      <div><span>01</span><b>FRAME</b><small>What decision? Whose behaviour? What context?</small></div>
+      <div><span>02</span><b>MEASURE</b><small>Clean, segment, visualise, establish a baseline.</small></div>
+      <div><span>03</span><b>CHALLENGE</b><small>Separate prediction, correlation and causal claims.</small></div>
+      <div><span>04</span><b>TRANSLATE</b><small>Turn evidence into an experiment, recommendation or operating decision.</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-intro reveal">
+      <div><span class="eyebrow section-label"><strong>EXPERIENCE</strong></span><h2>Where the thinking<br><em>meets reality.</em></h2></div>
+
+    </div>
+    <div class="timeline" id="experienceList"></div>
+    <div class="leadership-grid" id="leadershipList"></div>
+  </div>
+</section>
+
+<section class="section credentials-section" id="credentials">
+  <div class="container">
+    <div class="section-intro reveal">
+      <div><span class="eyebrow section-label"><strong>CREDENTIAL SIGNAL</strong></span><h2>Evidence of the<br><em>learning behind the work.</em></h2></div>
+      <p>Certificates are not the centre of the portfolio. They sit here as supporting evidence for the capabilities the projects already demonstrate · behavioural science, data science, communication and professional development.</p>
+    </div>
+    <div class="credential-grid" id="certificates"></div>
+  </div>
+</section>
+
+<section class="section writing-section" id="writing">
+  <div class="container">
+    <div class="section-intro reveal writing-intro">
+      <div><span class="eyebrow section-label"><strong>THINKING IN PUBLIC</strong></span><h2>The <em>playbook</em><br>and the field notes.</h2></div>
+      <div class="writing-intro-signal"><span>PUBLIC THINKING / 01</span><b>Ideas become useful when they can travel.</b><small>Behavioural economics · decision-making · context · strategy</small></div>
+    </div>
+    <article class="playbook reveal">
+      <div class="playbook-number">FEATURED / 01</div>
+      <div class="playbook-copy">
+        <span>BEHAVIOURAL STRATEGY PLAYBOOK</span>
+        <h3>Beyond the Nudge:<br><em>The Behavioural Strategy Playbook Nobody Teaches.</em></h3>
+        <p>A practitioner-oriented piece connecting behavioural science with strategy, context and execution · the clearest expression of the intellectual direction behind this portfolio.</p>
+        <a class="button button-dark" href="https://medium.com/@joshuaimmanuel/beyond-the-nudge-the-behavioural-strategy-playbook-nobody-teaches-3226fbda9774" target="_blank" rel="noreferrer">Read the playbook ↗</a>
+      </div>
+      <div class="playbook-art">
+        <div class="playbook-grid"></div>
+        <div class="playbook-orbit"></div>
+        <span>NUDGE</span><span>CONTEXT</span><span>FRICTION</span><span>STRATEGY</span>
+      </div>
+    </article>
+    <div class="writing-subhead"><span>FIELD NOTES / MEDIUM</span><small>Swipe, click or let the sequence run.</small></div>
+    <div class="writing-carousel" aria-label="Medium articles slideshow">
+      <button class="carousel-btn prev" id="prevPost" aria-label="Previous article">←</button>
+      <div class="writing-track" id="writingTrack"></div>
+      <button class="carousel-btn next" id="nextPost" aria-label="Next article">→</button>
+    </div>
+    <div class="carousel-dots" id="writingDots"></div>
+  </div>
+</section>
+
+<section class="section" id="education">
+  <div class="container education-wrap">
+    <div class="edu-card reveal">
+      <span class="eyebrow section-label"><strong>EDUCATION</strong></span>
+      <h2>Economics,<br><em>applied.</em></h2>
+      <p id="educationDegree"></p><p class="muted" id="educationExpected"></p>
+      <div class="course-list" id="courseList"></div>
+    </div>
+    <div class="toolkit-card reveal">
+      <span class="eyebrow">TOOLKIT</span>
+      <div id="skillsGrid"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="contact-card reveal">
+      <div class="contact-signal">X → B → Y</div>
+      <span class="eyebrow section-label"><strong>CONTACT</strong></span>
+      <h2>Bring me a messy<br><em>question.</em></h2>
+      <p>Especially if it involves customers, behaviour, growth, strategy, policy, research or a decision that deserves better evidence.</p>
+      <div class="contact-links">
+        <a href="mailto:joshuaimmanuel005@gmail.com" class="button button-dark">Email Joshua ↗</a>
+        <a href="https://linkedin.com/in/joshimmanuel" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com/immanueljoshua2019-art" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="https://medium.com/@joshuaimmanuel" target="_blank" rel="noreferrer">Medium ↗</a>
+      </div>
+      <div class="contact-details"><span>Lagos, Nigeria</span><span>+234 902 220 80771</span><span>joshuaimmanuel005@gmail.com</span></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Joshua Immanuel</span>
+    <span>Data × Behaviour × Decisions</span>
+    <a href="/admin/">CMS ↗</a>
+  </div>
+</footer>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

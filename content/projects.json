@@ -1,0 +1,84 @@
+[
+  {
+    "id": "causal-telemarketing",
+    "featured": true,
+    "number": "01",
+    "label": "GITHUB / CAUSAL AUDIT",
+    "title": "A Behavioural-Economics Read of Bank Marketing Data",
+    "short": "When prediction is not the same thing as a lever.",
+    "description": "A causal and machine-learning audit of bank telemarketing data that compares predictive modelling with causal reasoning, then stress-tests the story using placebo runs, negative controls and sensitivity checks.",
+    "why": "Shows the ability to move from 'what predicts conversion?' to 'what could actually change behaviour?'",
+    "tags": [
+      "Causal inference",
+      "Ensemble ML",
+      "Econometrics",
+      "Behaviour"
+    ],
+    "repo": "https://github.com/immanueljoshua2019-art/causal_behavioural_telemarketing_audit",
+    "extra": "https://doi.org/10.5281/zenodo.22697970",
+    "extraLabel": "Research record ↗",
+    "visual": "causal"
+  },
+  {
+    "id": "nudgedesigner",
+    "featured": true,
+    "number": "02",
+    "label": "GITHUB / PRODUCT CONCEPT",
+    "title": "NudgeDesigner",
+    "short": "Diagnose the behavioural mechanism before rewriting the message.",
+    "description": "An AI-enabled behavioural audit and decision-support concept that evaluates why campaigns, policies and messages fail to translate awareness into action.",
+    "why": "Applies COM-B and EAST thinking to behavioural friction, trust, social norms, accessibility and local context, with redesigns tailored to African audiences.",
+    "tags": [
+      "Behavioural science",
+      "AI",
+      "COM-B",
+      "EAST",
+      "Product thinking"
+    ],
+    "repo": "https://github.com/immanueljoshua2019-art/NudgeDesigner",
+    "extra": "https://nudgedesigner.netlify.app/",
+    "extraLabel": "Open NudgeDesigner ↗",
+    "visual": "nudge"
+  },
+  {
+    "id": "water",
+    "featured": true,
+    "number": "03",
+    "label": "GITHUB / DEVELOPMENT DATA",
+    "title": "Water Access Portfolio",
+    "short": "A global development question made legible through data.",
+    "description": "Analysis of WHO/UNICEF JMP drinking-water access data across 213 countries, including a 2015–2020 annual rate-of-change view.",
+    "why": "Demonstrates applied data analysis, development context and the ability to turn a large cross-country dataset into an interpretable evidence story.",
+    "tags": [
+      "Data analysis",
+      "Development",
+      "Visualisation",
+      "Google Sheets"
+    ],
+    "repo": "https://github.com/immanueljoshua2019-art/water-access-portfolio",
+    "extra": "https://raw.githubusercontent.com/immanueljoshua2019-art/water-access-portfolio/main/presentation/water-access-portfolio-deck.pdf",
+    "extraLabel": "View presentation PDF ↗",
+    "visual": "water"
+  },
+  {
+    "id": "retention",
+    "featured": false,
+    "number": "04",
+    "label": "FLAGSHIP / IN DEVELOPMENT",
+    "title": "Why Do Customers Leave?",
+    "short": "A product analytics case study built around retention, behaviour and causal reasoning.",
+    "description": "Planned flagship case combining SQL, Python, churn modelling, behavioural segmentation, causal analysis and a Power BI dashboard.",
+    "why": "Designed to demonstrate the full product/customer analytics loop: measure → segment → predict → challenge → recommend.",
+    "tags": [
+      "SQL",
+      "Python",
+      "Churn",
+      "Segmentation",
+      "Power BI"
+    ],
+    "repo": "",
+    "extra": "",
+    "extraLabel": "",
+    "visual": "retention"
+  }
+]

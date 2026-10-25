@@ -1,0 +1,74 @@
+{
+  "name": "Joshua Immanuel",
+  "location": "Lagos, Nigeria",
+  "phone": "+234 902 220 80771",
+  "email": "joshuaimmanuel005@gmail.com",
+  "linkedin": "https://linkedin.com/in/joshimmanuel",
+  "github": "https://github.com/immanueljoshua2019-art",
+  "medium": "https://medium.com/@joshuaimmanuel",
+  "title": "Data & Behavioural Insights Analyst",
+  "eyebrow": "DATA × BEHAVIOUR × DECISIONS",
+  "hero": "I turn messy human questions into clearer decisions.",
+  "hero_text": "Economics-trained analyst working across customer behaviour, behavioural science, analytics and strategy, combining evidence, experimentation and causal reasoning to make business decisions more useful.",
+  "availability": "",
+  "hero_tags": [
+    "Customer & Product Analytics",
+    "Behavioural Insights",
+    "Strategy & Research",
+    "Causal & Decision Analytics"
+  ],
+  "kpis": [
+    {
+      "value": "3",
+      "label": "public GitHub analysis projects",
+      "detail": "Causal / behavioural, NudgeDesigner, development data"
+    },
+    {
+      "value": "213",
+      "label": "countries analysed",
+      "detail": "WHO/UNICEF water-access portfolio"
+    },
+    {
+      "value": "500+",
+      "label": "microfinance records handled",
+      "detail": "Data quality and reporting support"
+    },
+    {
+      "value": "2,000+",
+      "label": "conference participants reached",
+      "detail": "Content leadership and behavioural framing"
+    }
+  ],
+  "principles": [
+    {
+      "title": "Start with the decision",
+      "text": "A model is useful only when it clarifies what someone should do next."
+    },
+    {
+      "title": "Treat behaviour as data",
+      "text": "Context, friction, incentives and social norms are part of the problem - not noise around it."
+    },
+    {
+      "title": "Separate prediction from causality",
+      "text": "A strong predictor is not automatically a lever. I explicitly ask what can be changed and what can be inferred."
+    },
+    {
+      "title": "Make evidence usable",
+      "text": "Dashboards, writing and recommendations should reduce cognitive load rather than add to it."
+    }
+  ],
+  "education": {
+    "degree": "BSc Economics - First Class Honours",
+    "school": "University of Lagos",
+    "location": "Lagos, Nigeria",
+    "expected": "Expected Jan 2027",
+    "coursework": [
+      "Econometrics",
+      "Statistics",
+      "Mathematical Economics",
+      "Project Evaluation & Analysis",
+      "Macroeconomics",
+      "Development Economics"
+    ]
+  }
+}

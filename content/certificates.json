@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Introduction to Behavioral Science in Public Policy",
+    "issuer": "The World Bank Group",
+    "year": "2025",
+    "image": "assets/images/certificates/world-bank-behavioural-science.jpg",
+    "signal": "Directly strengthens the behavioural-policy side of the portfolio."
+  },
+  {
+    "title": "13-months ALX Data Science Programme",
+    "issuer": "Explore AI Academy / ALX",
+    "year": "2024",
+    "image": "assets/images/certificates/alx-data-science.png",
+    "signal": "Signals sustained technical training across Python, SQL, Power BI and data science."
+  },
+  {
+    "title": "Professional Development Skills for the Digital Age & Tech Career Specialization",
+    "issuer": "ALX",
+    "year": "2024",
+    "image": "assets/images/certificates/alx-foundations.png",
+    "signal": "Adds structured professional-development evidence alongside technical training."
+  },
+  {
+    "title": "Certificate of Recognition \u2014 NED 9.0 Research Challenge",
+    "issuer": "NESA / NED 9.0",
+    "year": "2026",
+    "image": "assets/images/certificates/ned-9-recognition.jpg",
+    "signal": "Adds evidence of research-team contribution, execution and analytical communication."
+  },
+  {
+    "title": "Introduction to Communication Science",
+    "issuer": "University of Amsterdam / Coursera",
+    "year": "2020",
+    "image": "assets/images/certificates/coursera-communication.jpg",
+    "signal": "Supports the communication and storytelling side of an analyst role."
+  },
+  {
+    "title": "Side Hustle Internship",
+    "issuer": "Side Hustle",
+    "year": "2022",
+    "image": "assets/images/certificates/side-hustle-internship.png",
+    "signal": "Early evidence of professional exposure and applied communication."
+  }
+]
