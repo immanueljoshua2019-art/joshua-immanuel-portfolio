@@ -2,16 +2,14 @@
 
 ## What this version is
 
-This portfolio is deliberately not a generic "developer portfolio". It uses the information supplied by Joshua and positions the site around:
+This portfolio is not a generic "developer portfolio". The site is positioned around:
 
 **Data × Behaviour × Decisions**
 
 The visual direction combines:
-- Framer-style editorial spacing, large type, interactive cards and motion
-- DeveloperFolio's clear portfolio information architecture
+- Editorial spacing, large type, interactive cards and motion
 - Power BI-style KPI and analytical hierarchy
 - causal-diagram motifs and prediction-vs-causality language
-- brain-friendly progressive disclosure
 - light/dark mode
 - responsive desktop / tablet / mobile layouts
 - reduced-motion accessibility
@@ -182,52 +180,6 @@ The site content architecture is intentionally backend-agnostic: the visible sit
 
 ---
 
-# Make the pipeline bigger
-
-The long-term architecture should become:
-
-```text
-                         CONTENT SYSTEM
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        ▼                     ▼                     ▼
-     Projects              Writing             Credentials
-        │                     │                     │
-        ▼                     ▼                     ▼
-   Case studies          Medium posts          Certificates
-        │                     │                     │
-        └─────────────────────┼─────────────────────┘
-                              ▼
-                         DECAP CMS
-                              │
-                              ▼
-                           GITHUB
-                 ┌────────────┼────────────┐
-                 ▼            ▼            ▼
-             Versioning      QA        Branches
-                              │
-                              ▼
-                       GITHUB ACTIONS
-                              │
-              ┌───────────────┼────────────────┐
-              ▼               ▼                ▼
-          JSON checks      Link checks     Lighthouse
-              │               │                │
-              └───────────────┼────────────────┘
-                              ▼
-                           NETLIFY
-                              │
-                ┌─────────────┼─────────────┐
-                ▼             ▼             ▼
-              CDN           HTTPS       Deploy previews
-                              │
-                              ▼
-                       LIVE PORTFOLIO
-                              │
-             ┌────────────────┼─────────────────┐
-             ▼                ▼                 ▼
-          Analytics         Contact          Search
-```
 
 ## Future content collections
 
@@ -369,7 +321,3 @@ Examples:
 - certificates provide secondary credibility
 - dark mode becomes an analytical "lab" environment
 - mobile layouts collapse complexity rather than merely shrinking it
-
-The goal is:
-
-**mindblowing at first glance → calm and intelligent after 30 seconds.**
